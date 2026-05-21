@@ -1,0 +1,57 @@
+# Syntax coloring for EasySensor
+# (Arduino IDE uses this file for keyword highlighting)
+#
+# Format:
+# KEYWORD    TAB    TOKEN_TYPE
+# DATA_TYPE, LITERAL, KEYWORD1, KEYWORD2, RESERVED_WORD
+
+#######################################
+# Classes
+#######################################
+EasySensor	KEYWORD1
+SensorFusion	KEYWORD1
+
+#######################################
+# Methods and Functions
+#######################################
+begin	KEYWORD2
+update	KEYWORD2
+read	KEYWORD2
+rawRead	KEYWORD2
+readPercent	KEYWORD2
+setSampleInterval	KEYWORD2
+setFilter	KEYWORD2
+setKalmanParams	KEYWORD2
+setEmaAlpha	KEYWORD2
+setRange	KEYWORD2
+calibrate	KEYWORD2
+setOffset	KEYWORD2
+resetCalibration	KEYWORD2
+onThreshold	KEYWORD2
+clearThreshold	KEYWORD2
+isAboveThreshold	KEYWORD2
+pin	KEYWORD2
+version	KEYWORD2
+addSensor	KEYWORD2
+count	KEYWORD2
+
+#######################################
+# Constants and Enumerations
+#######################################
+EASY_SENSOR_VERSION	LITERAL1
+EASY_SENSOR_MAX_WINDOW	LITERAL1
+EASY_SENSOR_MAX_SENSORS	LITERAL1
+
+FILTER_NONE	LITERAL1
+FILTER_AVERAGE	LITERAL1
+FILTER_KALMAN	LITERAL1
+FILTER_EMA	LITERAL1
+
+SENSOR_GENERIC	LITERAL1
+SENSOR_LIGHT	LITERAL1
+SENSOR_TEMP	LITERAL1
+SENSOR_MOISTURE	LITERAL1
+SENSOR_GAS	LITERAL1
+SENSOR_DISTANCE	LITERAL1
+SENSOR_SOUND	LITERAL1
+SENSOR_DIGITAL	LITERAL1
